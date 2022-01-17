@@ -1,0 +1,731 @@
+
+/*==========THE NAVIGATION PART==========*/
+
+#navnav {
+background-color: rgb(255, 255, 255);
+
+}
+
+.navbar li:hover {
+	border-bottom: 1px solid;
+	border-color: #434040;
+}
+
+.navbar li {
+	font-family: Calibri, "Lucida Grande", sans-serif;
+	margin-bottom: 0px;
+}
+
+#searchbtn{
+	color: gray;
+	transition: 0.4s ease;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#searchbtn:hover{
+	color:#000;
+	transition: 0.4s ease;
+}
+
+/*==================================*/
+/*The search box*/
+.searchcont{
+	width: 100%;
+	height: 1px;
+	margin-top: -800px;
+	position: fixed;
+	z-index: 1029;
+}
+
+#searchbar{
+	display: none;
+	border:1px solid #333;
+	padding: 6px 12px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 62px;
+	outline: none;
+	z-index: 1029;
+}
+
+@media only screen and (min-width: 1120px) and (max-width: 900000px){
+#searchbar{
+	display: none;
+	border:1px solid #e0e0e0;
+	padding: 6px 12px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 62px;
+	outline: none;
+	z-index: 3;
+}
+}	
+
+@media only screen and (min-width: 990px) and (max-width: 1199px){
+
+	#searchbar{
+		display: none;
+		border:1px solid #e0e0e0;
+		padding: 6px 12px;
+		border-radius: 5px;
+		float: right;
+		margin-right: 30px;
+		margin-top: 112px;
+		outline: none;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#searchbar{
+		display: none;
+		border:1px solid #e0e0e0;
+		padding: 6px 12px;
+		border-radius: 5px;
+		float: right;
+		margin-right: 30px;
+		margin-top: 162px;
+		outline: none;
+	}
+}	
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+	#searchbar{
+		display: block;
+		border:1px solid #e0e0e0;
+		padding: 6px 12px;
+		border-radius: 5px;
+		float: right;
+		margin-right: 30px;
+		margin-top: 395px;
+		outline: none;
+	}
+}
+
+.navbar-right {
+	margin-top: 10px! important;
+}
+
+
+/*border-bottom 1px solid*/
+.active {
+	border-bottom: none;
+	cursor: pointer;	
+	border-bottom:1px solid;
+
+}
+
+.nav .active a { 
+	background:none!important;
+	color:#e60000! important;	
+ }
+
+#thelogo {
+	margin-top: -6px;
+	margin-left: -73px;
+}
+
+
+
+#withoutbottom:hover {
+	border-bottom:none! important;
+
+}
+
+/*===Here the searchbox styling ends===*/
+/*The Nav bar ends here*/
+
+/*=======The real body start here=======*/
+
+.parallax1 {
+    /* The image used */
+
+    /* Set a specific height */
+     min-height: 48px; 
+     margin-top: -800px;
+     margin-right: 1px;
+     margin-left:1px;
+	 border:1px solid #fff;
+	 position: fixed;
+	 z-index: -2;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bodywrap{
+
+}
+
+label{
+	border:1px solid red;
+	height: 100px;
+	width: 100px;
+}
+
+/*=======this is for foooterly footer=========*/
+
+.site-footer {
+	background-color: gray;
+	color:red;
+	margin-top:0px;
+	height:250px;
+	width: 100%;
+	margin-top:;
+
+
+}
+
+.social {
+	padding-left:30px;
+	margin-left:50px;
+	float:right;
+	display:;
+}
+
+#thefooterh3 {
+	padding-right:30px;
+}
+
+#thelogosize {
+	margin-left:50px;
+}
+
+#pparagraph {
+	font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+#pparagraph p {
+	font-size: 1.4em;
+    text-align: center;
+    color: #756969;
+    padding-top: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    line-height: 150%;
+    width: 71%;
+    margin: auto;
+
+}
+
+/*=====The text on pic starts here=======*/
+
+#thetextonpic {
+	
+    background-color: #ffd11a;
+    width:100%;
+    height:450px;
+    font-size:20px;
+}
+
+#thetextonpic1 {
+	float:left;
+	padding:50px;
+}
+
+#thetextonpic4 {
+	float:right;
+	padding:50px;
+
+}
+/*===============VIDEO=========*/
+#home_video {
+	width:500px;
+	height: 300px;
+}
+
+#vidcaption{
+    background-color: #fff;
+    width:50%;
+    height:75px;
+    font-size:40px;
+    color:#ffd11a;
+    padding-top: 28px;
+}
+
+/*===============FOOOTER=========*/
+
+
+
+footer {
+
+    margin-left: -10px;
+    min-width: 450px;
+    min-height: 300px;
+    border: 1px solid transparent;
+    background:  #666666;
+
+}
+
+.centre {
+    display: block;
+    text-align: -webkit-center;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+.footerlink_1 {
+	width: 100%;
+    margin: auto;
+    display: inline-block;
+    border: 1px solid transparent;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.footerlink_2 {	
+    display: inline-block;
+    border: 1px solid transparent;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.footertitles {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.footerlink_1 li {
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 20px;
+
+}
+
+
+
+.footerlink_1, .footerlink_2 li {
+    list-style: none;
+    float: left;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-right: 40px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.footerlink_1, .footerlink_2 a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 15.5px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+
+footer ul a {
+	color:#ffffff;
+}
+
+#blockquote {
+    padding: 10px 50px;
+    padding-bottom:10px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: #666;
+     display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+/*=========The paragraphs start here(index)==========*/
+
+
+
+#paragraphs {
+	padding-top: 80px;
+	text-align: center;
+	color:#666666;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-size:20px; 
+	font-weight: 100! important;
+	padding-left: 150px;
+	padding:100px;
+}
+
+
+/*=======The about page slider=======*/
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: -5px;
+}
+
+
+    /* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+/*=============DROPDOWN============*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 12px;    
+    border: none;
+    outline: none;
+    color: #777;
+    padding: 17px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -3;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #e60000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown, .active a { 
+	background:none!important;
+	color:orange! important;	
+ }
+
+
+/*Admissions pragraph*/
+#padmissions {
+	padding-top:50px;
+	text-align: center;
+	color:#666666;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-size:17px; 
+	font-weight:;
+	padding-right:250px;
+	padding-left:250px;
+	
+}
+
+#ulforpic {
+	list-style: none; 
+	display: inline;
+	background-color: 
+	background-color: lightblue;
+    width:100%;
+    height:450px;
+}
+
+#ulforpic1 {
+	padding-right: 5px;
+}
+
+#padmissions h1 {
+	color:orange;
+} 
+
+/*=====THE OUR TEACHERS PAGE=====*/
+
+
+
+.dest_heading {
+    font-family: Cooper Black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stafftable {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    border-top:1px solid #999;
+}
+
+.stafftable_text {
+    float: left;
+    width: 48%;
+    height: 400px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.stafftable_text2{
+    float: left;
+    width: 48%;
+    height: 400px;
+}
+
+.staff_photo2{
+    float: right;
+    width: 48%;
+    height: 400px;
+    overflow: auto;
+    overflow-x: hidden;
+    margin-top: -20px;
+}
+
+.stafftable_text p , .staff_photo2 p{
+    padding: 0 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+   
+        margin-left: 36px;
+}
+
+
+
+.staff_photo {
+    float: right;
+    width: 41%;
+    height: 450px;
+}
+
+.staff_photo img {
+    width: 450px;
+    height: 359px;
+    margin-top: 28px;
+    border: 3px solid #bbbbc5;
+    border-radius: 10px;
+}
+
+.stafftable_text2 img {
+    width: 450px;
+    height: 359px;
+    margin-top: 31px;
+    border: 3px solid #bbbbc5;
+    border-radius: 10px;
+}
+
+
+.staff_photo img:hover , .stafftable_text2 img:hover {
+        box-shadow: 0 0 20px orange, 0 0 20px orange;
+}
+
+.staff_name {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    color:orange;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 1000px){
+
+
+.stafftable {
+    height: 850px;
+}
+
+.stafftable_text {
+    width: 100%;
+    margin-top: 400px;
+}
+
+
+.staff_photo {
+    width: 100%;    
+    margin-top: -800px;
+}
+
+.stafftable_text2{
+    width: 100%;    
+    margin-bottom: -400px;
+    margin-left: 30px;
+}
+
+.staff_photo2{
+    width: 100%;
+    margin-top: 400px;
+}
+}
+
+/*THIS IS FOR gallery PAGE*/
+
+
+.gal-container{
+  padding: 12px;
+}
+.gal-item{
+  overflow: hidden;
+  padding: 3px;
+}
+.gal-item .box{
+  height: 350px;
+  overflow: hidden;
+}
+.box img{
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+  -o-object-fit:cover;
+}
+.gal-item a:focus{
+  outline: none;
+}
+.gal-item a:after{
+  content:"\e003";
+  font-family: 'Glyphicons Halflings';
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 3px;
+  left: 3px;
+  top: 3px;
+  bottom: 3px;
+  text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+  opacity: 1;
+}
+.modal-open .gal-container .modal{
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+  padding: 0px;
+}
+.modal-open .gal-item button.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+}
+.modal-open .gal-item button.close:focus{
+  outline: none;
+}
+.modal-open .gal-item button.close span{
+  position: relative;
+  top: -3px;
+  font-weight: lighter;
+  text-shadow:none;
+}
+.gal-container .modal-dialogue{
+  width: 80%;
+}
+.gal-container .description{
+  position: relative;
+  height: 40px;
+  top: -40px;
+  padding: 10px 25px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: left;
+}
+.gal-container .description h4{
+  margin:0px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
+@media (min-width: 768px) {
+.gal-container .modal-dialog {
+    width: 55%;
+    margin: 50 auto;
+}
+}
+@media (max-width: 768px) {
+    .gal-container .modal-content{
+        height:250px;
+    }
+}
+/* Footer Style */
+i.red{
+    color:#BC0213;
+}
+.gal-container{
+    padding-top :75px;
+    padding-bottom:75px;
+}
+
+
+
+/*THIS IS FOR gallery PAGE ENDS HERE*/
+
+

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The AVICENNA School of Science and Technology</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!--===================-->
+	  <link href="styles/bootstrap.min.css" rel="stylesheet">
+	  <link href="styles/bootstrap.css" rel="stylesheet">
+	  <script src="scripts/bootstrap.min.js"></script>
+	<!--===================-->
+
+	<link rel="icon" href="images/logo2.png">
+	<script type="text/javascript" src="scripts/script.js" defer=""></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body id="body">
+
+				
+				<!--This particular bootstrap creates a navbar which stays at the top of the page statically -->
+				
+	        	<nav class="navbar navbar-default navbar-fixed-top">
+	        		<div id="navnav">
+
+					<div class="container">
+					<!-- I wanted to put my logo here, it is what everyone does nowadays -->
+
+						<div class="navbar-header">
+							<a href="index.html" class="navbar-brand"><img id="thelogo" src="images/logo.png" alt="Logo"></a>	
+						</div>
+
+						<!--This button will help on a mobile or a tablet when you click on it. But it is not working although I included the javascript and jquery links. I have to see it-->
+
+							<button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">
+								<span class="icon-bar"></span>	
+								<span class="icon-bar"></span>	
+								<span class="icon-bar"></span>	
+							</button>
+						<!--The button with the class of navbar-toggle will refer to this navHeaderCollapse when it executes -->	
+						<div class="collapse navbar-collapse navHeaderCollapse">	
+
+							<!--This bootstrap will retain the navbar elements aligned to right leaving some space between the logo and the navigation list items-->
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">HOME</a></li>
+
+								<li><a href="about.html">ABOUT</a></li>
+						 		<li class="active"><a href="admissions.html">ADMISSIONS</a></li>
+						 		<li><a href="ourprogramme.html">OUR PROGRAMME</a></li>
+						 		<li><a href="studentlife.html">STUDENT LIFE</a></li>
+						 		<li><a href="gallery.html">GALLERY</a></li>
+						 		<li><a href="ourteachers.html">OUR TEACHERS</a></li>
+						 		<li><a href="contact.html">CONTACT</a></li>
+
+						 		<!--=== Search bar. Needs to be improved===-->
+						 		<li id="withoutbottom">
+							        <i class="fa fa-search fa-2x" aria-hidden="true" id="searchbtn"></i>
+							    </li>	
+							    <!--======-->						 			
+							</ul>
+							
+						</div>														
+					</div>	
+				</div>
+				</nav>
+
+<div class="searchcont">
+	<input  type="text" id="searchbar" name="search" placeholder="Search...">
+</div>
+<!--========-==The auromatic slider================-->
+<style>
+	@keyframes fadein{
+		from{
+			opacity: 0;
+			display: none;
+		}
+		to{
+			opacity: 1;
+			display: block;
+		}
+	}
+</style>
+<div class="slideshow-container">
+
+<div class="nextSLide1" style="transition: 1s; opacity: 1;animation-name: fadein; animation-duration: 1s;">
+  <img src="images/principal5.jpg" style="width:100%; height: 700px;">
+</div>
+
+<div class="nextSLide1" style="transition: 1s; opacity: 1;animation-name: fadein; animation-duration: 1s;">
+	
+  <img src="images/principal2.jpg" style="width:100%; height: 700px;">
+</div>
+
+
+<div style="position: absolute;z-index: 1; min-height:500px;width: 1px; border:1px solid transparent; margin-top: -320px; margin-right: 50%; margin-left: 50%; font-size:36px;">
+				<container>
+							<h2 class="slide-title"
+							   style=" text-align:
+							   center; line-height: 2;border-radius:10px;color:orange; 
+							   font-size: 50px; width: 500px;margin-left:
+							   -250px;margin-top: -30px; font-weight: 
+							   bold;font-family: Comic Sans MS, Comic Sans,
+							   cursive;background-color: rgba(255,255,255,0.55);"><span>Admissions Process</span>
+						   </h2>
+				</container>
+</div>
+
+<!--========-====The auromatic slider==============-->
+
+
+
+
+
+<div id="padmissions">
+	<h1 style="">Stage 1: Receive more information</h1>
+	<p>Interested students and parents are invited to request more information either through filling out our request a brochure form or by contacting the College on +44 (0) 20 8579 6668 to speak with our admissions team.
+	</p>
+	<br>
+	
+	<p>We also encourage parents and students to book a visit to the College and have a tour with the Principal. Alternatively, the College also hosts regular open days each term. </p>
+	<br>
+	<br>
+
+	<center>
+		<container id="ulforpic">
+			<ul id="ulforpic">
+				<li id="ulforpic1" style="float:left;"><a href="#"><img src="images/brochure.png" alt="Students chattering"></a></li>
+				<li id="ulforpic2" style="float:right;"><a href="#"><img src="images/visit.png" alt="Students chattering"></a></li>
+			</ul>
+		</container>
+	</center>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1>Stage 2: Interview</h1>
+	<p>Once we have received the enrolment form and accompanying documentation/fees, the student will be invited to an interview with the Principal either in person or by Skype. In the interview the students and parents will be able to receive advice on the recommended programme for the student to ensure the College tailors their education according to their academic goals and ambitions. </p>
+	<br>
+	<br>
+	
+
+	
+	<h1>Stage 3: Offer</h1>
+	<p>An offer to Ealing Independent College is based on a successful interview with the Principal and satisfactory academic records. For applicants who meet the entry requirements, an offer of a place in the College for the appropriate course will be given to the student in writing. The student will have three weeks to formally accept the offer.
+	</p>
+	<br>
+	<br>
+	<h1>Stage 4: Acceptance</h1>
+	<p>Students who accept the offer of a place at Ealing Independent College are required to submit an enrolment form via email or in the post/in person.
+	 </p><br>
+
+	<center><a href="#"><img src="images/enrolment.png"></a>
+	<br>
+	<br>
+	<br>
+	<div style="color:orange;">
+		<p>The completed enrolment form must be accompanied with the following documentation and payment: </p>
+		<p>Most recent school report/academic reference</p>
+		<p>Copies of academic records</p>
+		<p>Any other necessary supporting documents/qualifications</p>
+		<p>Photocopy of passport</p>
+		<p>Two passport sized photos</p>
+		<p>Acceptance deposit (£500)</p>
+		<p>Registration fee (£300)</p>
+		<p>Book and resource fee (£400)</p>
+	</div>
+	</center>
+	<br>
+	<p>The full first tuition fee instalment must be paid before the student joins the College. </p>
+	<p>Once the above has been submitted the student will be enrolled into the College, and a letter confirming receipt of the above will be issued confirming the student’s place at the College. Once enrolled, the applicant will receive regular news updates about the College. </p>
+	<p>Please ensure our enrolment terms and conditions are read and understood before accepting the offer of a place at the College.</p>
+	<br>
+	<center>
+		<a href="#"> <img src="images/terms.png"></a>
+	</center>
+	<br>
+	<br>
+
+
+
+
+
+
+	
+</div>
+
+
+
+<!--========-==THEFOOTERAREA================-->
+
+
+ 
+
+<footer>
+	<div class="centre">
+		<br><br>
+	
+	<div class="footerlink_1">
+		<div class="footertitles">Quick links:</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li class="active" style="border-bottom:none; color:orange;"><a href="admissions.html">Admissions</a></li>
+			<li><a href="ourprogramme.html">Our Programme</a></li>
+			<li><a href="studentlife.html">Student Life</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="ourteachers.html">Our Teachers</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="footerlink_2">
+		<div class="footertitles">Stay Connected</div>
+		<ul>
+			<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i> Facebook</a></li>
+			<li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i> Instagram</a></li>
+			<li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube fa-2x"></i> YouTube</a></li>
+			<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i> Twitter</a></li>
+			
+		</ul>
+	</div>
+
+	<div class="thereminder">
+
+		<center>
+			<blockquote id="blockquote"><p>This site was created to fulfill Web Technologies module’s requirements and does not represent an actual company.</p>
+			<p><strong>Copyright © AVICENNA</strong></p>
+			</blockquote>
+		</center>
+
+		
+
+	</div>
+	</div>
+</footer>
+
+
+
+<!--========-=====THEFOOTERAREA=============-->
+
+
+
+
+</body>
+
+</html>
+	

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The AVICENNA School of Science and Technology</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!--===================-->
+	  <link href="styles/bootstrap.min.css" rel="stylesheet">
+	  <link href="styles/bootstrap.css" rel="stylesheet">
+	  <script src="scripts/bootstrap.min.js"></script>
+	<!--===================-->
+
+	<link rel="icon" href="images/logo2.png">
+	<script type="text/javascript" src="scripts/script.js" defer=""></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> -->
+
+</head>
+<body id="body">
+
+				
+				<!--This particular bootstrap creates a navbar which stays at the top of the page statically -->
+				
+	        	<nav class="navbar navbar-default navbar-fixed-top">
+	        		<div id="navnav">
+
+					<div class="container">
+					<!-- I wanted to put my logo here, it is what everyone does nowadays -->
+
+						<div class="navbar-header">
+							<a href="index.html" class="navbar-brand"><img id="thelogo" src="images/logo.png" alt="Logo"></a>	
+						</div>
+
+						<!--This button will help on a mobile or a tablet when you click on it. But it is not working although I included the javascript and jquery links. I have to see it-->
+
+							<button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">
+								<span class="icon-bar"></span>	
+								<span class="icon-bar"></span>	
+								<span class="icon-bar"></span>	
+							</button>
+						<!--The button with the class of navbar-toggle will refer to this navHeaderCollapse when it executes -->	
+						<div class="collapse navbar-collapse navHeaderCollapse">	
+
+							<!--This bootstrap will retain the navbar elements aligned to right leaving some space between the logo and the navigation list items-->
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">HOME</a></li>
+
+								<li><a href="about.html">ABOUT</a></li>
+
+						 		<li><a href="admissions.html">ADMISSIONS</a></li>
+						 		<li class="active"><a>OUR PROGRAMME</a></li>
+						 		<li><a href="studentlife.html">STUDENT LIFE</a></li>
+						 		<li><a href="gallery.html">GALLERY</a></li>
+						 		<li><a href="ourteachers.html">OUR TEACHERS</a></li>
+						 		<li><a href="contact.html">CONTACT</a></li>
+
+						 		<!--=== Search bar. Needs to be improved===-->
+						 		<li id="withoutbottom">
+							        <i class="fa fa-search fa-2x" aria-hidden="true" id="searchbtn"></i>
+							    </li>	
+							    <!--======-->						 			
+							</ul>
+							
+						</div>														
+					</div>	
+				</div>
+				</nav>
+
+<div class="searchcont">
+	<input  type="text" id="searchbar" name="search" placeholder="Search...">
+</div>
+<!--========-==The auromatic slider================-->
+<style>
+	@keyframes fadein{
+		from{
+			opacity: 0;
+			display: none;
+		}
+		to{
+			opacity: 1;
+			display: block;
+		}
+	}
+</style>
+<div class="slideshow-container">
+
+<div class="nextSLide1" style="transition: 1s; opacity: 1;animation-name: fadein; animation-duration: 1s;">
+  <img src="images/principal1.jpg" style="width:100%; height: 700px;">
+</div>
+
+<div class="nextSLide1" style="transition: 1s; opacity: 1;animation-name: fadein; animation-duration: 1s;">
+	
+  <img src="images/principal2.jpg" style="width:100%; height: 700px;">
+</div>
+
+</div>
+
+<div style="position: absolute;z-index: 1;width: 1px; border:1px solid transparent; margin-top: -320px; margin-right: 50%; margin-left: 50%; font-size:36px;">
+				<container style="">
+							<h2 class="slide-title"
+							   style=" text-align:center; line-height: 2;border-radius:10px;color:orange; 
+							   font-size: 50px; width: 500px;margin-left:
+							   -250px;margin-top: -30px; font-weight: 
+							   bold;font-family: Comic Sans MS, Comic Sans,
+							   cursive;background-color: rgba(255,255,255,0.55);"><span>Our Programme</span>
+						   </h2>
+				</container>
+</div>
+
+<!--========-====The auromatic slider==============-->
+<div id="pparagraph">
+	<h1 style="text-align: center; color:orange; padding-top:20px;">The Course: International Secondary School Programme</h1>
+	<p>This programme is a unique way for students to develop their English and experience British culture.
+
+		<br />It offers immersion in the British education system for students age 14-17, plus English language development in an international school environment.<br />
+
+		Classes are small (4-10 students) which means extremely high levels of individual attention and progress, and students have the opportunity to sit formal British exams.
+	</p>
+	<br>
+	<br>
+	<h1 style="text-align: center; color:orange; padding-top:20px;">Course Structure</h1>
+	<p>The programme is designed to provide development in English and academic subjects within an international high school. Depending on age and aptitude, students will join either GCSE, or A-Level, or Foundation classes.<br />
+
+	Also included in the course is the Academic Enrichment Programme, which helps students to broaden their experience and interests through creative arts, physical education, and PSHE (Personal, Social and Health Education).</p>
+	<br>
+	
+	<h1 style="text-align: center; color:orange; padding-top:20px;">Extracurricular development</h1>
+	<p>Learning outside the classroom plays a crucial role in the effectiveness of the International High School Programme at Kings. Our aim is to create well-rounded, culturally adjusted students who can go on to thrive in whatever academic route they take. <br />
+
+    For more information about extracurricular activities we offer our students go to Outside the classroom.</p>
+
+    <h1 style="text-align: center; color:orange; padding-top:20px;">Academic outcomes and progression</h1>
+	<p>Successful completion of the International High School Programme can lead to formal qualifications and further academic study opportunities. Talented students following the programme for three terms can achieve GCSEs or other academic qualifications, which in turn can lead to progression to one of the following options. <br><br>
+	
+	<center>
+	<ol style="color:orange;font-size:22px;">
+		<li>Study A-levels or a Foundation programme with Kings.</li>
+		<li>Return to home country to finish high school.</li>
+		<li>Study A-levels, International Baccalaureate or Scottish Highers at a leading UK boarding school. </li>
+	</ol>
+	</center>
+	<br><br>
+
+	<h1 style="text-align: center; color:orange; padding-top:20px;">Academic subjects</h1>
+	<p>There is a range of academic pathways from which students can choose a variety of subjects — depending on College location, course length, and aptitude. Each subject provides total immersion in academic classes, taught in English and delivered by subject specialists with expertise in teaching international students. Physical Education is compulsory for all students under 16.<br><br>
+
+
+
+	
+
+
+
+	<h1 style="text-align: center; color:orange; padding-top:20px;">A video about our Programme</h1>
+
+	<center>
+		<iframe width="1000px" height="600px" src="https://www.youtube.com/embed/TW0802lavG0"">
+	    </iframe>
+	</center>	
+<br>
+
+</div>
+
+
+
+
+
+
+<!--========-==THEFOOTERAREA================-->
+
+
+ <footer>
+	<div class="centre">
+		<br><br>
+	
+	<div class="footerlink_1">
+		<div class="footertitles">Quick links:</div>
+		<ul>
+			 <li><a href="index.html">Home</a></li>
+		      <li><a href="about.html">About</a></li>
+		      <li><a href="admissions.html">Admissions</a></li>
+		      <li class="active" style="border-bottom:none; color:orange;"><a href="ourprogramme.html">Our Programme</a></li>
+		      <li><a href="studentlife.html">Student Life</a></li>
+		      <li><a href="gallery.html">Gallery</a></li>
+		      <li><a href="ourteachers.html">Our Teachers</a></li>
+		      <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="footerlink_2">
+		<div class="footertitles">Stay Connected</div>
+		<ul>
+			<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i> Facebook</a></li>
+			<li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i> Instagram</a></li>
+			<li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube fa-2x"></i> YouTube</a></li>
+			<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i> Twitter</a></li>
+			
+		</ul>
+		<br>
+		<br>
+	</div>
+
+	<div class="thereminder">
+
+		
+		<center>
+			<blockquote id="blockquote"><p>This site was created to fulfill Web Technologies module’s requirements and does not represent an actual company.</p>
+			<p><strong>Copyright © AVICENNA</strong></p>
+			</blockquote>
+		</center>
+
+	</div>
+	</div>
+</footer>
+
+
+
+
+
+<!--========-=====THEFOOTERAREA=============-->
+
+
+
+
+</body>
+
+</html>

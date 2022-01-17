@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The AVICENNA School of Science and Technology</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="icon" href="images/logo2.png">
+
+	<!--===================-->
+	  <link href="styles/bootstrap.min.css" rel="stylesheet">
+	  <link href="styles/bootstrap.css" rel="stylesheet">
+	  <script src="scripts/bootstrap.min.js"></script>
+	<!--===================-->
+
+	<script type="text/javascript" src="scripts/script.js" defer=""></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body id="body">
+
+	
+				<!--This particular bootstrap creates a navbar which stays at the top of the page statically -->
+				
+	        	<nav class="navbar navbar-default navbar-fixed-top">
+	        		<div id="navnav">
+
+					<div class="container">
+					<!-- I wanted to put my logo here, it is what everyone does nowadays -->
+
+						<div class="navbar-header">
+							<a href="index.html" class="navbar-brand"><img id="thelogo" src="images/logo.png" alt="Logo"></a>	
+						</div>
+
+						<!--This button will help on a mobile or a tablet when you click on it. But it is not working although I included the javascript and jquery links. I have to see it-->
+
+							<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+								<span class="icon-bar"></span>	
+								<span class="icon-bar"></span>	
+								<span class="icon-bar"></span>	
+							</button>
+						<!--The button with the class of navbar-toggle will refer to this navHeaderCollapse when it executes -->	
+						<div class="collapse navbar-collapse navHeaderCollapse">	
+
+							<!--This bootstrap will retain the navbar elements aligned to right leaving some space between the logo and the navigation list items-->
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active"><a>HOME</a></li>
+								<li><a href="about.html">ABOUT</a></li>
+						 		<li><a href="admissions.html">ADMISSIONS</a></li>
+						 		<li><a href="ourprogramme.html">OUR PROGRAMME</a></li>
+						 		<li><a href="studentlife.html">STUDENT LIFE</a></li>
+						 		<li><a href="gallery.html">GALLERY</a></li>
+						 		<li><a href="ourteachers.html">OUR TEACHERS</a></li>
+						 		<li><a href="contact.html">CONTACT</a></li>
+
+						 		<!--=== Search bar. Needs to be improved===-->
+						 		<li id="withoutbottom">
+							        <i class="fa fa-search fa-2x" aria-hidden="true" id="searchbtn"></i>
+							    </li>	
+							    <!--======-->						 			
+							</ul>
+							
+						</div>														
+					</div>	
+				</div>
+				</nav>
+
+<div class="searchcont">
+	<input  type="text" id="searchbar" name="search" placeholder="Search...">
+</div>
+
+
+
+<!--========-==================-->
+<!--I gave this container-fluid class as it will fit the slider to the whole width of the page-->
+
+<div class="parallax1">	
+
+<div  style="padding-left: 0px; padding-right: 0px">
+	<div class="row" style="margin-top: 64px;">
+		<div class="col-sm-12">
+
+			<div id="my-slider" class="carousel slide" data-ride="carousel">
+
+				<!-- indicators dot nav-->
+
+				<ol class="carousel-indicators">
+					<li data-target="#my-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#my-slider" data-slide-to="1"></li>
+					<li data-target="#my-slider" data-slide-to="2"></li>
+					<li data-target="#my-slider" data-slide-to="3"></li>
+				</ol>
+
+
+				<!-- wrapper for slides-->
+				<div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+						<img src="images/students1.jpg" alt="students in the class">
+							<div class="carousel-caption">
+								
+							</div>
+					</div>
+
+					<div class="item">
+						<img src="images/students2.jpg" alt="students in the class">
+							<div class="carousel-caption">
+								
+							</div>
+					</div>
+
+					<div class="item">
+						<img src="images/students3.jpg" alt="students in the class">
+							<div class="carousel-caption">
+								
+							</div>
+					</div>
+
+					<div class="item">
+						<img src="images/students4.jpg" alt="students in the class">
+							<div class="carousel-caption">
+								
+							</div>
+					</div>	
+
+				</div>
+<!--============================-->
+					
+<!--============================-->
+
+				<!-- the controls or nex or prev buttons-->
+				<a class="left carousel-control" href="#my-slider" role="button" data-slide="prev" style="position: fixed;z-index: 0;">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+
+				<a class="right carousel-control" href="#my-slider" role="button" data-slide="next" style="position: fixed;z-index: 0;">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			
+		</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	</div>
+	
+</div>	
+</div>
+
+
+
+<!--The paragraphs start here-->
+
+
+
+<div class="bodywrap" style="margin-top: 800px; min-height:2000px; background-color:#fff; border-top:1px solid white; ">
+		<center>
+
+			<div style="position: absolute;z-index: -1;width: 1px; border:1px solid transparent; margin-top: -500px; margin-right: 50%; margin-left: 50%; font-size:36px;">
+							<h2 class="text-white animated fadeInUp" data-caption-class="fadeInUp" 
+							   data-caption-delay="300" style="text-align: center; line-height: 2;color:#fff; 
+							   font-size: 30px; width: 900px;margin-left: -450px;margin-top: -30px; font-weight: 
+							   bold;text-shadow: 3px 3px 0 orange;font-family: Comic Sans MS, Comic Sans, cursive;">«AVICENNA  SCHOOOL OF SCIENCE AND MEDICINE» <br> THE FIRST STEP TO A PROSPEROUS FUTURE!
+						   </h2>
+			</div>
+		</center>
+
+
+<div id="pparagraph">		
+	<center style="padding-top: 50px; color:orange; font-size: 3em;">
+		<h1">Welcome to</h1>
+		<br>
+	    <h1"">AVICENNA School of Science and Medicine</h1>
+	</center>
+
+<p>AVICENNA School of Science and Medicine in Tashkent preparing students aged 13 to 19 from Uzbekistan and worldwide for higher education through the GCSE and A-Level programmes, specialist Medical Science and Business Programmes, and tailored learning programmes through one to one tuition. We provide expert teaching, supportive individual help and guidance, and consequently have a proven track record of securing excellent examination results that open doors for our students to top universities across the country and abroad. Based in one of the nicest parts of Tashkent City, AVICENNA School of Science and Medicine is well-established with almost fifteen years’ experience of preparing students for an academic future in a supportive and friendly environment. At AVICENNA, we aim to ensure that all of our students fulfil their true potential and reach their future goals.</p>
+<br>
+<center><a href="about.html" style="text-decoration: none;"><h4>Read more...</h4></a></center>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- This is where the THE MORE THAN EXPERIENCE PART goes-->
+<div id="thetextonpic">
+	<center>
+	<p style="padding-top: 40px;font-size:40px! important;color:white;">More than 70 years of experience</p2>
+
+		<div id="thetextonpic1">
+			<div><img src="images/icon_1.png" alt="transparent bullseye sign"></div>
+			<div  style="">
+				<p style=" text-align: center; color:white;" >100%</p>
+				<p style=" text-align: center; color:white;">Passing to Universities</p>
+			</div>
+		</div>
+
+
+		<div id="thetextonpic2" style="float:left; padding-left: 60px; padding:50px">
+			<div><img src="images/icon_2.png" alt="three people icon"></div>
+			<div>
+				<p style=" text-align: center; color:white;" >177</p>
+				<p style=" text-align: center; color:white;">People Working</p>
+			</div>
+		</div>
+
+
+		<div id="thetextonpic3" style="float:right; padding-right: 90px; padding:50px">
+			<div><img src="images/icon_3.png" alt="rucksack icon"></div>
+			<div>
+				<p style=" text-align: center; color:white;" >1700</p>
+				<p style=" text-align: center; color:white;">Students Enrolled</p>
+			</div>
+		</div>
+
+
+		<div id="thetextonpic4" >
+			<div><img src="images/icon_4.png" alt="two people icon"></div>
+			<div>
+				<p style=" text-align: center; color:white;" >433</p>
+				<p style=" text-align: center; color:white;">Happy Smiles</p>
+			</div>
+		</div>
+
+	</center>
+</div>
+<br>
+<br>
+<br>
+
+<!--====================THEGALLERYSTARTSHERESHANK==========================-->
+
+<center>
+	<h2 id="vidcaption"><strong>Our School in a Video</strong></h2>
+</center>
+<br>
+<br>
+<center>
+	<video controls style="width: 98%; height: auto;">
+	   <source src="media/videoforweb.mp4" type="video/mp4">
+	</video><br><br>
+</center>
+</div>
+</div>
+
+<!--====================THEGALLERYSTARTSHERESHANK==========================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--The footer stars here-->
+
+ <footer>
+	<div class="centre"><br><br>
+	
+	<div class="footerlink_1">
+		<div class="footertitles">Quick links:</div>
+		<ul>
+			<li  class="active" style="border-bottom:none; color:orange;"><a href="index.html" style="color:#ffffff;">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="admissions.html">Admissions</a></li>
+			<li><a href="ourprogramme.html">Our Programme</a></li>
+			<li><a href="studentlife.html">Student Life</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="ourteachers.html">Our Teachers</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="footerlink_2">
+		<div class="footertitles">Stay Connected</div>
+		<ul>
+			<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i> Facebook</a></li>
+			<li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i> Instagram</a></li>
+			<li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube fa-2x"></i> YouTube</a></li>
+			<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i> Twitter</a></li>
+			
+		</ul>
+	</div>
+
+	<div class="thereminder">
+
+		<center>
+			<blockquote id="blockquote"><p>This site was created to fulfill Web Technologies module’s requirements and does not represent an actual company.</p>
+			<p><strong>Copyright © AVICENNA</strong></p>
+	
+			</blockquote>
+		</center>
+
+		
+
+	</div>
+	</div>
+</footer>
+
+
+		
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!--=========================-->
+
+
+
+
+</body>
+
+</html>
